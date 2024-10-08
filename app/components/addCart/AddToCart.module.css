@@ -1,0 +1,21 @@
+.container button{
+  width: 150px;
+  padding: 10px 16px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  border: 0.5px solid grey;
+  cursor: pointer;
+  transition: 0.5s;
+  position: absolute;
+  bottom: 100px;
+  left: 60px;
+}
+.container button:hover {
+    color: rgb(190, 77, 54);
+    border: 0.5px solid rgb(190, 77, 54);
+}

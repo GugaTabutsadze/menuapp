@@ -1,0 +1,17 @@
+.page {
+    width: 1440px;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+@media screen and (max-width: 390px) {
+    .page {
+        width: 390px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+    }
+}

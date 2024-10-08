@@ -1,0 +1,32 @@
+.container {
+    width: 130px;
+    padding: 13px 16px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(200, 59, 14);
+    position: absolute;
+    top: 246px;
+    left: 50px;
+}
+.container button{
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 200%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.container span {
+    width: 40px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
