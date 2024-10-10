@@ -108,7 +108,7 @@ const Mainmenu = () => {
 
   return (
     <div className={styles.mainMenuContainer}>
-      <p>Hello</p>
+      <p>Hello world</p>
         <h1 style={{fontSize: "50px", fontWeight: "1000"}}>Dessrets</h1>
       <div className={styles.menuItemContainer}>
          {
