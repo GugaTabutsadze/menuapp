@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./AddQuantity.module.css"
-import { addToCartState, cartState, quantityState } from '@/app/state'
+import {cartState} from '@/app/state'
 import { useRecoilState } from 'recoil'
 
 const AddQuantity = ({handleAddToCart, id}) => {

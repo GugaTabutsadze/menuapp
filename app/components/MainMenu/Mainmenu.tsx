@@ -4,9 +4,8 @@ import React, { useState } from 'react'
 import styles from "./Mainmenu.module.css"
 import AddToCart from '../addCart/AddToCart'
 import AddQuantity from '../AddQuantity/AddQuantity'
-import { addToCartState, cartState } from '@/app/state'
+import { cartState } from '@/app/state'
 import { useRecoilState } from 'recoil'
-import Cart from '../Cart/Cart'
 
 const Mainmenu = () => {
 
