@@ -8,9 +8,6 @@ import { addToCartState, cartState } from '@/app/state'
 import { useRecoilState } from 'recoil'
 import Cart from '../Cart/Cart'
 
-interface props {
-  id:number
-}
 
 const Mainmenu = () => {
 
